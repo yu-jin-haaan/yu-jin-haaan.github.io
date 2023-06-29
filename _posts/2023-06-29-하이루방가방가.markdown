@@ -1,0 +1,20 @@
+---
+layout: post
+title:  방가방가
+date:   2023-06-29 18:48:45 +0900
+categories: jekyll update
+---
+대박 신기하네요...
+제 인생을 알려 드리겠습니다:
+
+{% highlight ruby %}
+def truth(name)
+  puts "I want to stop doing #{name}"
+end
+truth('studying')
+#=> prints 'I want to stop doing studying' to STDOUT.
+{% endhighlight %}
+
+저를 더 알아보고 싶으시다면....[요기][요기]로 문의 주세요. bye bye
+
+[요기]: https://www.linkedin.com/in/%EC%9C%A0%EC%A7%84-%ED%95%9C-b96089267/
