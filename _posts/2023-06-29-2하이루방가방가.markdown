@@ -29,14 +29,3 @@ HTML (DOM으로 바뀌어서 저장 -> 렌더링)
 
 
 
-
-
-{% highlight ruby %}
-<html>
-def truth(name)
-  puts "I want to stop doing #{name}"
-end
-truth('studying')
-#=> prints 'I want to stop doing studying' to STDOUT.
-{% endhighlight %}
-
