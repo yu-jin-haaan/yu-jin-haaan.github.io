@@ -1,13 +1,38 @@
 ---
 layout: post
-title:  리액트 1강
+title:  [베어유] 리액트 1주차
 date:   2023-09-14 16:06:45 +0900
-categories: 인섕
+categories: 리액트
 ---
-대박 신기하네요...
-제 인생을 알려 드리겠습니다:
+1. 리액트는 왜 탄생했을까?
+
+브라우저(클라이언트)는 서버로 데이터를 요청 보내고, 서버가 데이터라는 응답을 보낸다.
+HTML: 데이터를 담는 전체적 뼈대
+CSS: 데이터가 화면에 어떻게 보기 좋게 나타나는지 스타일링 담당
+JAVA script: 웹페이지가 사용자와 상호작용 할 수 있는 부분 -> DOM 조작
+
+HTML (DOM으로 바뀌어서 저장 -> 렌더링)
+1) head
+2) body
+
+-리액트는 DOM을 어떻게 하는지 도와준다
+-웹 발전으로 인해 자바 스크립트가 DOM 조작하는 과정이 복잡해지면서 더 쉽고 직관적으로 개발하기 위해 리액트를 만들었다
+
+2. 리액트는 컴포넌트로 작동합니다
+
+컴포넌트: object를 구성하는 요소 = props를 입력 받아 JSX를 리턴하는 함수
+*컴포넌트는 클래스형으로도 만들 수 있으나 복잡해서 잘 사용되진 않는다
+-> 함수형 컴포넌트를 모아서 전체 리액트 앱을 구성할 수 있다
+
+컴포넌트는 레고 블록과 유사하다 
+-> 코드의 가독성이 좋아지고, 재사용성이 높아지며, 유지보수가 쉬워진다
+
+
+
+
 
 {% highlight ruby %}
+<html>
 def truth(name)
   puts "I want to stop doing #{name}"
 end
@@ -15,6 +40,3 @@ truth('studying')
 #=> prints 'I want to stop doing studying' to STDOUT.
 {% endhighlight %}
 
-저를 더 알아보고 싶으시다면....[요기][요기]로 문의 주세요. bye bye
-
-[요기]: https://www.linkedin.com/in/%EC%9C%A0%EC%A7%84-%ED%95%9C-b96089267/
